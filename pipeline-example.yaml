@@ -11,6 +11,7 @@ Parameters:
     Description: The Image you wish to use for CodeBuild.
     Type: String
     AllowedValues:
+      - aws/codebuild/standard:5.0    #use this 
       - aws/codebuild/ubuntu-base:14.04
       - aws/codebuild/android-java-8:26.1.1
       - aws/codebuild/android-java-8:24.4.1
